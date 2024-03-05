@@ -1,24 +1,24 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
-  <TemplateData>
-    <Name>Xbox 360 Dynamic-Link Library (DLL)</Name>
-    <Description>Build a .dll that can be shared between multiple Xbox 360 apps.</Description>
-    <ProjectType>VC</ProjectType>
-	<LanguageTag>C++</LanguageTag>
-	<PlatformTag>Xbox 360</PlatformTag>
-	<ProjectTypeTag>Library</ProjectTypeTag>
-    <SortOrder>1000</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>XenonDll</DefaultName>
-    <ProvideDefaultName>true</ProvideDefaultName>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>Xbox 360 Dynamic-Link Library (DLL).ico</Icon>
-  </TemplateData>
-  <TemplateContent>
-    <Project TargetFileName="$projectname$.vcxproj" File="Xbox 360 Dynamic-Link Library (DLL).vcxproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="DllMain.cpp">DllMain.cpp</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
-    </Project>
-  </TemplateContent>
+	<TemplateData>
+		<Name>Xbox 360 Dynamic-Link Library (DLL)</Name>
+		<Description>Build a .dll that can be shared between multiple Xbox 360 apps.</Description>
+		<ProjectType>VC</ProjectType>
+		<LanguageTag>C++</LanguageTag>
+		<PlatformTag>Xbox 360</PlatformTag>
+		<ProjectTypeTag>Library</ProjectTypeTag>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>XenonDll</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>Xbox 360 Dynamic-Link Library (DLL).ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="$projectname$.vcxproj" File="Xbox 360 Dynamic-Link Library (DLL).vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="DllMain.cpp">DllMain.cpp</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+		</Project>
+	</TemplateContent>
 </VSTemplate>

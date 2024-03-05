@@ -1,25 +1,25 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
-  <TemplateData>
-    <Name>Xbox 360 DashLaunch Plugin</Name>
-    <Description>Build a .dll for Xbox 360 that can be loaded by DashLaunch on startup.</Description>
-    <ProjectType>VC</ProjectType>
-	<LanguageTag>C++</LanguageTag>
-	<PlatformTag>Xbox 360</PlatformTag>
-	<ProjectTypeTag>Extensions</ProjectTypeTag>
-    <SortOrder>1000</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>XenonPlugin</DefaultName>
-    <ProvideDefaultName>true</ProvideDefaultName>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>Xbox 360 DashLaunch Plugin.ico</Icon>
-  </TemplateData>
-  <TemplateContent>
-    <Project TargetFileName="$projectname$.vcxproj" File="Xbox 360 DashLaunch Plugin.vcxproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="DllMain.cpp">DllMain.cpp</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="ImageConfig.xml">ImageConfig.xml</ProjectItem>
-    </Project>
-  </TemplateContent>
+	<TemplateData>
+		<Name>Xbox 360 DashLaunch Plugin</Name>
+		<Description>Build a .dll for Xbox 360 that can be loaded by DashLaunch on startup.</Description>
+		<ProjectType>VC</ProjectType>
+		<LanguageTag>C++</LanguageTag>
+		<PlatformTag>Xbox 360</PlatformTag>
+		<ProjectTypeTag>Extensions</ProjectTypeTag>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>XenonPlugin</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>Xbox 360 DashLaunch Plugin.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="$projectname$.vcxproj" File="Xbox 360 DashLaunch Plugin.vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="false" TargetFileName="DllMain.cpp">DllMain.cpp</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+			<ProjectItem ReplaceParameters="false" TargetFileName="ImageConfig.xml">ImageConfig.xml</ProjectItem>
+		</Project>
+	</TemplateContent>
 </VSTemplate>
