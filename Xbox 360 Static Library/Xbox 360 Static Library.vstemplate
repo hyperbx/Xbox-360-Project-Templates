@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Xbox 360 Static Library</Name>
+    <Description>Build a .lib that can be packaged inside other Xbox 360 executables.</Description>
+    <ProjectType>VC</ProjectType>
+	<LanguageTag>C++</LanguageTag>
+	<PlatformTag>Xbox 360</PlatformTag>
+	<ProjectTypeTag>Library</ProjectTypeTag>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XenonStaticLib</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>Xbox 360 Static Library.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$projectname$.vcxproj" File="Xbox 360 Static Library.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

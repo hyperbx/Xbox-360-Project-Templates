@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<xex>
+  <format><compressed/></format>
+  <mediatypes><allpackages/></mediatypes>
+  <gameregion><all/></gameregion>
+  <sysdll/>
+  <mfgmode mode="aware"/>
+  <baseaddr addr="0x91C00000"/>
+</xex>
