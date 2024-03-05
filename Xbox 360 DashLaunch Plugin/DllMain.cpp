@@ -7,9 +7,9 @@
 // Name: DllMain()
 // Desc: The DLL application's entry point
 //-------------------------------------------------------------------------------------
-BOOL APIENTRY DllMain(HMODULE in_module, DWORD in_reason, LPVOID in_reserved)
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved)
 {
-	switch (in_reason)
+	switch (ul_reason_for_call)
 	{
 		case DLL_PROCESS_ATTACH:
 		case DLL_PROCESS_DETACH:
